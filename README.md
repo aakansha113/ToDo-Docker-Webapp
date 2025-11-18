@@ -67,11 +67,14 @@ $docker run --rm -it simple-frontend-app:latest sh
 
 ## 2-Page not loading on localhost:8080
 
-1-Confirm container is running: docker ps
+1-Confirm container is running: 
+$docker ps
 
-2-Confirm port mapping: docker ps shows 0.0.0.0:8080->80/tcp
+2-Confirm port mapping: 
+$docker ps shows 0.0.0.0:8080->80/tcp
 
 3-If using a VM or WSL, ensure Docker Host network is reachable.
+
 
 
 
