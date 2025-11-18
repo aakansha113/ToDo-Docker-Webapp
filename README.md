@@ -28,9 +28,8 @@ $docker build -t simple-frontend-app:latest .
 
 $docker run --name simple-frontend -d -p 8080:80 simple-frontend-app:latest
 
-## After running, open 
-http://localhost:8080 
-in your browser.
+## After running, 
+open http://localhost:8080 in your browser.
 
 ## View container logs
 
@@ -73,6 +72,7 @@ $docker run --rm -it simple-frontend-app:latest sh
 2-Confirm port mapping: docker ps shows 0.0.0.0:8080->80/tcp
 
 3-If using a VM or WSL, ensure Docker Host network is reachable.
+
 
 
 
