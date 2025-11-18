@@ -1,4 +1,4 @@
-## Below is a ready-to-use README.md you can drop into your app/ fSimple Frontend App.It describes the project, explains each file, and gives clear, step-by-step instructions for running locally and with Docker
+# Below is a ready-to-use README.md you can drop into your app/ Simple Frontend App.It describes the project, explains each file, and gives clear, step-by-step instructions for running locally and with Docker
 
 A tiny static frontend app (HTML, CSS, JS) with a Dockerfile so you can build and run it inside a container.
 
@@ -71,3 +71,4 @@ $docker run --rm -it simple-frontend-app:latest sh
 2-Confirm port mapping: docker ps shows 0.0.0.0:8080->80/tcp
 
 3-If using a VM or WSL, ensure Docker Host network is reachable.
+
