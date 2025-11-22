@@ -1,8 +1,9 @@
+## To-Do Docker Webapp
 Below is a ready-to-use README.md you can drop into your app/ Simple Frontend App.It describes the project, explains each file, and gives clear, step-by-step instructions for running locally and with Docker
 
 A tiny static frontend app (HTML, CSS, JS) with a Dockerfile so you can build and run it inside a container.
 
-## Contents / File structure
+## File structure
 app/
 ├─ app.js         # your JavaScript
 ├─ index.html     # main HTML page
@@ -16,9 +17,12 @@ app/
 
 - Docker (to build and run the container)Or a browser to open index.html for local testing
 
-## Build & run with Docker — step by step
-
-These commands assume your terminal's current directory is app/ (same folder as the Dockerfile).
+### 📥 Clone This Repository
+To clone this portfolio on your local system, run:
+```
+git clone https://github.com/aakansha113/my-portfolio.git
+```
+## Build & run with Docker — step-by-step
 
 ### Build the image
 ```
@@ -29,7 +33,11 @@ $docker build -t simple-frontend-app:latest .
 $docker run --name simple-frontend -d -p 8080:80 simple-frontend-app:latest
 ```
 ### After running, 
-open http://localhost:8080 in your browser.
+open 
+```
+http://localhost:8080
+```
+in your browser.
 
 ### View container logs
 ```
@@ -79,6 +87,8 @@ $docker ps shows 0.0.0.0:8080->80/tcp
 ```
 3-If using a VM or WSL, ensure Docker Host network is reachable.
 
+### ⭐ Show Your Support
+#### If you like this portfolio, feel free to ⭐ star the repo!
 
 
 
