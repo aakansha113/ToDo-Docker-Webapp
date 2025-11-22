@@ -26,7 +26,7 @@ git clone https://github.com/aakansha113/my-portfolio.git
 
 ### Build the image
 ```
-$docker build -t simple-frontend-app:latest .
+docker build -t simple-frontend-app:latest .
 ```
 ### Run the container (map port 8080 → container port 80)
 ```
@@ -41,7 +41,7 @@ in your browser.
 
 ### View container logs
 ```
-$docker logs -f simple-frontend
+docker logs -f simple-frontend
 ```
 ### Stop the container
 ```
@@ -49,11 +49,11 @@ $docker stop simple-frontend
 ```
 ### Remove the container
 ```
-$docker rm simple-frontend
+docker rm simple-frontend
 ```
 ### Remove the image (if needed)
 ```
-$docker rmi simple-frontend-app:latest
+docker rmi simple-frontend-app:latest
 ```
 # Troubleshooting — common issues
 
@@ -70,25 +70,26 @@ Common causes:
 2-Wrong working directory or missing files during build — verify Dockerfile copies all files.
 
 3-Quick check: run container interactively to inspect:
-
-$docker run --rm -it simple-frontend-app:latest sh
-
+```
+docker run --rm -it simple-frontend-app:latest sh
+```
 4-Then look at file contents inside container.
 
 ### 2-Page not loading on localhost:8080
 
 1-Confirm container is running: 
 ```
-$docker ps
+docker ps
 ```
 2-Confirm port mapping: 
 ```
-$docker ps shows 0.0.0.0:8080->80/tcp
+docker ps shows 0.0.0.0:8080->80/tcp
 ```
 3-If using a VM or WSL, ensure Docker Host network is reachable.
 
 ### ⭐ Show Your Support
 #### If you like this portfolio, feel free to ⭐ star the repo!
+
 
 
 
