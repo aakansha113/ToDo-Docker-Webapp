@@ -30,7 +30,7 @@ docker build -t simple-frontend-app:latest .
 ```
 ### Run the container (map port 8080 → container port 80)
 ```
-$docker run --name simple-frontend -d -p 8080:80 simple-frontend-app:latest
+docker run --name simple-frontend -d -p 8080:80 simple-frontend-app:latest
 ```
 ### After running, 
 open 
@@ -45,7 +45,7 @@ docker logs -f simple-frontend
 ```
 ### Stop the container
 ```
-$docker stop simple-frontend
+docker stop simple-frontend
 ```
 ### Remove the container
 ```
@@ -89,6 +89,7 @@ docker ps shows 0.0.0.0:8080->80/tcp
 
 ### ⭐ Show Your Support
 #### If you like this portfolio, feel free to ⭐ star the repo!
+
 
 
 
