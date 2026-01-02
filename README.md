@@ -3,14 +3,15 @@ Below is a ready-to-use README.md you can drop into your app/ Simple Frontend Ap
 
 A tiny static frontend app (HTML, CSS, JS) with a Dockerfile so you can build and run it inside a container.
 
-## File structure
+##  📁 File structure
+```
 app/
 ├─ app.js         # your JavaScript
 ├─ index.html     # main HTML page
 ├─ styles.css     # styling
 ├─ Dockerfile     # container build instructions
 └─ README.md      # this fileolder. 
-
+```
 ## Prerequisites
 
 - Git (optional, if cloning)
@@ -89,6 +90,7 @@ docker ps shows 0.0.0.0:8080->80/tcp
 
 ### ⭐ Show Your Support
 #### If you like this portfolio, feel free to ⭐ star the repo!
+
 
 
 
