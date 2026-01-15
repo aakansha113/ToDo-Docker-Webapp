@@ -41,12 +41,12 @@ http://localhost:8080
 in your browser.
 
 ## Application UI
-## webpage
+## Webpage-
 <p align="center">
   <img src="src/TODOlist webpage.png" width="700"/>
 </p>
 
-## webpage with todolist
+## Webpage with ToDolist-
 
 <p align="center">
   <img src="src/list of the todolist.png" width="700"/>
@@ -104,6 +104,7 @@ docker ps shows 0.0.0.0:8080->80/tcp
 
 ### ⭐ Show Your Support
 #### If you like this portfolio, feel free to ⭐ star the repo!
+
 
 
 
