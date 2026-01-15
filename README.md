@@ -39,6 +39,10 @@ open
 http://localhost:8080
 ```
 in your browser.
+## Application UI
+
+![Frontend UI](src/list of the todolist.png)
+
 
 ### View container logs
 ```
@@ -90,6 +94,7 @@ docker ps shows 0.0.0.0:8080->80/tcp
 
 ### ⭐ Show Your Support
 #### If you like this portfolio, feel free to ⭐ star the repo!
+
 
 
 
