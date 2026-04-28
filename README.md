@@ -23,6 +23,52 @@ To clone this portfolio on your local system, run:
 ```
 git clone https://github.com/aakansha113/ToDo-Docker-Webappo.git
 ```
+
+
+---
+
+## ⚙️ CI/CD Pipeline (GitHub Actions)
+
+This project uses GitHub Actions to automate Docker workflows.
+
+### 🔄 Workflow Steps:
+
+1. Code is pushed to the `main` branch  
+2. GitHub Actions workflow is triggered  
+3. Docker image is built  
+4. Image is pushed to Docker Hub  
+
+### 📄 Workflow File
+.github/workflows/docker.yml
+
+### 🔐 Required Secrets
+
+Add in **GitHub → Settings → Secrets → Actions**:
+
+- `DOCKER_USERNAME`
+- `DOCKER_PASSWORD`
+
+---
+
+## 📦 Docker Image
+aakansha113/todo-app:v1
+
+Available on Docker Hub.
+
+---
+
+## 🐳 Run Using Docker
+
+### Pull image
+docker pull aakansha113/todo-app:latest
+
+### Run container
+docker run --name simple-frontend -d -p 8080:80 aakansha113/todo-app:latest
+
+
+### Open in browser
+http://localhost:8080
+
 ## Build & run with Docker — step-by-step
 
 ### Build the image
@@ -52,6 +98,11 @@ in your browser.
   <img src="src/list of the todolist.png" width="700"/>
 </p>
 
+## Webpage with ToDo List-
+
+<p align="center">
+  <img src="src/list of the todolist.png" width="700"/>
+</p>
 
 
 ### View container logs
