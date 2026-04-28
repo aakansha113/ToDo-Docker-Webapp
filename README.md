@@ -69,23 +69,6 @@ docker run --name simple-frontend -d -p 8080:80 aakansha113/todo-app:latest
 ### Open in browser
 http://localhost:8080
 
-## Build & run with Docker — step-by-step
-
-### Build the image
-```
-docker build -t simple-frontend-app:latest .
-```
-### Run the container (map port 8080 → container port 80)
-```
-docker run --name simple-frontend -d -p 8080:80 simple-frontend-app:latest
-```
-### After running, 
-open 
-```
-http://localhost:8080
-```
-in your browser.
-
 ## Application UI
 ## Webpage-
 <p align="center">
@@ -98,7 +81,7 @@ in your browser.
   <img src="src/list of the todolist.png" width="700"/>
 </p>
 
-## Webpage with ToDo List-
+## Webpage of Docker Hub-
 
 <p align="center">
   <img src="src/list of the todolist.png" width="700"/>
