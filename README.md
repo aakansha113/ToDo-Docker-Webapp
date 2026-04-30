@@ -81,7 +81,7 @@ http://localhost:8080
   <img src="src/list of the todolist.png" width="700"/>
 </p>
 
-## Webpage of Docker Hub-
+## Webpage of Docker Hub push by using Github Actions-
 
 <p align="center">
   <img src="src/dockerhub.png" width="700"/>
