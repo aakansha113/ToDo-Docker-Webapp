@@ -228,6 +228,68 @@ docker ps shows 0.0.0.0:8080->80/tcp
 ```
 3-If using a VM or WSL, ensure Docker Host network is reachable.
 
+## Kubernetes Troubleshooting
+
+### Pod not running
+Check pod status:
+```bash
+kubectl get pods
+```
+
+Describe pod for errors:
+```bash
+kubectl describe pod <pod-name>
+```
+
+---
+
+### Check application logs
+View logs:
+```bash
+kubectl logs <pod-name>
+```
+
+Live logs:
+```bash
+kubectl logs -f <pod-name>
+```
+
+---
+
+### Service not accessible
+Check services:
+```bash
+kubectl get svc
+```
+
+Access app:
+```bash
+minikube service todo-service
+```
+
+Or port forward:
+```bash
+kubectl port-forward service/todo-service 8080:80
+```
+
+---
+
+### Deployment issues
+Check deployment status:
+```bash
+kubectl get deployments
+```
+
+Restart deployment:
+```bash
+kubectl rollout restart deployment todo-app
+```
+
+Check rollout:
+```bash
+kubectl rollout status deployment todo-app
+```
+
 ### ⭐ Show Your Support
 #### If you like this portfolio, feel free to ⭐ star the repo!
 
