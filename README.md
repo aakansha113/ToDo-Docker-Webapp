@@ -10,7 +10,10 @@ app/
 ├─ index.html     # main HTML page
 ├─ styles.css     # styling
 ├─ Dockerfile     # container build instructions
-└─ README.md      # this fileolder. 
+├─ deployment.yml
+├─ service.yml
+└─ README.md      # this filefolder.
+
 ```
 ## Prerequisites
 
