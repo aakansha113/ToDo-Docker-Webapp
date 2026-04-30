@@ -1,7 +1,44 @@
-## To-Do Docker Webapp
-Below is a ready-to-use README.md you can drop into your app/ Simple Frontend App.It describes the project, explains each file, and gives clear, step-by-step instructions for running locally and with Docker
+# To-Do Docker Webapp
+### Dockerized To-Do Web Application with CI/CD & Kubernetes
 
-A tiny static frontend app (HTML, CSS, JS) with a Dockerfile so you can build and run it inside a container.
+A simple To-Do web application built with HTML, CSS, and JavaScript, containerized using Docker, automated with GitHub Actions CI/CD, and deployed on Kubernetes.
+
+---
+## Project Overview
+
+This project demonstrates an end-to-end DevOps workflow:
+
+- Build a frontend To-Do application
+- Containerize with Docker
+- Automate Docker image build and push using GitHub Actions
+- Deploy on Kubernetes
+- Practice scaling, self-healing, and rolling updates
+---
+
+## Tech Stack
+
+- HTML
+- CSS
+- JavaScript
+- Docker
+- GitHub Actions
+- Kubernetes
+- Minikube
+
+---
+## Project Architecture
+
+User
+ ↓
+Kubernetes Service
+ ↓
+Deployment
+ ↓
+Pods (Replicas)
+ ↓
+Docker Container
+ ↓
+To-Do App
 
 ##  📁 File structure
 ```
@@ -13,6 +50,9 @@ app/
 ├─ deployment.yml
 ├─ service.yml
 └─ README.md      # this filefolder.
+└── .github/
+    └── workflows/
+        └── docker.yml
 
 ```
 ## Prerequisites
@@ -26,8 +66,6 @@ To clone this portfolio on your local system, run:
 ```
 git clone https://github.com/aakansha113/ToDo-Docker-Webappo.git
 ```
-
-
 ---
 
 ## ⚙️ CI/CD Pipeline (GitHub Actions)
@@ -72,6 +110,47 @@ docker run --name simple-frontend -d -p 8080:80 aakansha113/todo-app:latest
 ### Open in browser
 http://localhost:8080
 
+## Kubernetes Deployment
+
+### Apply deployment
+```bash
+kubectl apply -f deployment.yaml
+```
+
+### Apply service
+```bash
+kubectl apply -f service.yaml
+```
+
+### Access application
+```bash
+minikube service todo-service
+```
+
+---
+
+## Kubernetes Concepts Practiced
+
+### Scaling replicas
+```bash
+kubectl scale deployment todo-app --replicas=3
+```
+
+### Self-healing
+```bash
+kubectl delete pod <pod-name>
+```
+### Rolling updates
+```bash
+kubectl rollout restart deployment todo-app
+```
+
+### Check rollout status
+```bash
+kubectl rollout status deployment todo-app
+```
+
+---
 ## Application UI
 ## Webpage-
 <p align="center">
@@ -90,7 +169,11 @@ http://localhost:8080
   <img src="src/dockerhub.png" width="700"/>
 </p>
 
+## Webpage deployed using K8S-
 
+<p align="center">
+  <img src="src/website-live.png" width="700"/>
+</p>
 ### View container logs
 ```
 docker logs -f simple-frontend
