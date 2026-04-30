@@ -177,7 +177,7 @@ kubectl rollout status deployment todo-app
 
 ## Live logs of the App Webpage-
 <p align="center">
-  <img src="src/.png" width="700"/>
+  <img src="src/live_logs.png" width="700"/>
 </p>
 
 ### View container logs
