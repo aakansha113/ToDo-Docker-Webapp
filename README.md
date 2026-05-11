@@ -149,7 +149,54 @@ kubectl rollout restart deployment todo-app
 ```bash
 kubectl rollout status deployment todo-app
 ```
+---
+Kubernetes Files
+deployment.yml
 
+Handles:
+
+Deployment creation
+Replica management
+Environment variables
+Resource limits
+service.yml
+
+Exposes application service.
+
+configmap.yaml
+
+Stores non-sensitive configuration:
+
+APP_MODE
+APP_COLOR
+secret.yml
+
+Stores sensitive data:
+
+DB_USER
+DB_PASSWORD
+
+Deploy Application
+```
+kubectl apply -f deployment.yml
+kubectl apply -f service.yml
+```
+Apply ConfigMap
+```
+kubectl apply -f configmap.yaml
+```
+Apply Secret
+```
+kubectl apply -f secret.yml
+```
+Verify Pods
+```
+kubectl get pods
+```
+Describe Pod
+```
+kubectl describe pod <pod-name>
+```
 ---
 ## Application UI
 ## Webpage-
