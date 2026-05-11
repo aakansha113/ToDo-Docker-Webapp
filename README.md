@@ -49,6 +49,8 @@ app/
 ├─ Dockerfile     # container build instructions
 ├─ deployment.yml
 ├─ service.yml
+├─ configmap.yml
+├─ secret.yml
 └─ README.md      # this filefolder.
 └── .github/
     └── workflows/
