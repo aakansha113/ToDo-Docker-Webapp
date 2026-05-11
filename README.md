@@ -155,29 +155,30 @@ kubectl rollout status deployment todo-app
 Kubernetes Files
 deployment.yml
 
-Handles:
+#### Handles:
 
-Deployment creation
-Replica management
-Environment variables
-Resource limits
-service.yml
+- Deployment creation
+- Replica management
+- Environment variables
+- Resource limits
+- service.yml
 
-Exposes application service.
+#### Exposes application service.
 
-configmap.yaml
+- configmap.yaml
 
-Stores non-sensitive configuration:
-
+- Stores non-sensitive configuration:
+```
 APP_MODE
 APP_COLOR
-secret.yml
+```
+#### secret.yml
 
 Stores sensitive data:
-
+```
 DB_USER
 DB_PASSWORD
-
+```
 Deploy Application
 ```
 kubectl apply -f deployment.yml
