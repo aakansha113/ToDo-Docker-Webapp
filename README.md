@@ -239,6 +239,7 @@ kubectl describe pod <pod-name>
 <p align="center">
   <img src="src/resource limit.png" width="700"/>
 </p>
+
 ### View container logs
 ```
 docker logs -f simple-frontend
