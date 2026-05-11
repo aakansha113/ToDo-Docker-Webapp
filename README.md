@@ -237,7 +237,7 @@ kubectl describe pod <pod-name>
 
 ## Resource Limit -
 <p align="center">
-  <img src="src/Resource limit.png" width="700"/>
+  <img src="src/resource limit.png" width="700"/>
 </p>
 ### View container logs
 ```
