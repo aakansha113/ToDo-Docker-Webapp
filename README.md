@@ -230,6 +230,15 @@ kubectl describe pod <pod-name>
   <img src="src/live_logs.png" width="700"/>
 </p>
 
+## Environment -
+<p align="center">
+  <img src="src/env.png" width="700"/>
+</p>
+
+## Resource Limit -
+<p align="center">
+  <img src="src/Resource limit.png" width="700"/>
+</p>
 ### View container logs
 ```
 docker logs -f simple-frontend
