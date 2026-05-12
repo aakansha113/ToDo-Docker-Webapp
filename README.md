@@ -25,29 +25,7 @@ This project demonstrates an end-to-end DevOps workflow:
 - Kubernetes
 - Minikube
 ---
-## 🚀 Features Implemented
 
-### 🐳 Docker
-- Containerized the application using Dockerfile
-- Built and tested image locally
-
-### 🔄 CI/CD Pipeline
-- Automated build and push to Docker Hub using GitHub Actions
-- Triggered pipeline on every code push
-
-### ☸️ Kubernetes
-- Deployment of application using Kubernetes Deployment
-- Service exposed for external access
-- ConfigMap for configuration management
-- Secret for sensitive data handling
-- Resource limits for production readiness
-- Rolling updates for zero downtime deployment
-
-### ☁️ AWS EC2 Deployment
-- Deployed Kubernetes cluster on AWS EC2 instance
-- Accessed application via public IP
-
----
 
 ## 🔧 How it works
 
@@ -95,6 +73,29 @@ app/
         └── docker.yml
 
 ```
+## 🚀 Features Implemented
+
+### 🐳 Docker
+- Containerized the application using Dockerfile
+- Built and tested image locally
+
+### 🔄 CI/CD Pipeline
+- Automated build and push to Docker Hub using GitHub Actions
+- Triggered pipeline on every code push
+
+### ☸️ Kubernetes
+- Deployment of application using Kubernetes Deployment
+- Service exposed for external access
+- ConfigMap for configuration management
+- Secret for sensitive data handling
+- Resource limits for production readiness
+- Rolling updates for zero downtime deployment
+
+### ☁️ AWS EC2 Deployment
+- Deployed Kubernetes cluster on AWS EC2 instance
+- Accessed application via public IP
+
+---
 ## Prerequisites
 
 - Git (optional, if cloning)
