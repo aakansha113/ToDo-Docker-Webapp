@@ -48,7 +48,6 @@ This project demonstrates an end-to-end DevOps workflow:
 - Accessed application via public IP
 
 ---
----
 
 ## 🔧 How it works
 
@@ -58,7 +57,7 @@ This project demonstrates an end-to-end DevOps workflow:
 4. Kubernetes pulls image and deploys app
 5. Service exposes app on browser
 
----
+
 ---
 ## Project Architecture
 
