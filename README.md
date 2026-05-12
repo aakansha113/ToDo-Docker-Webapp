@@ -45,7 +45,7 @@ This project demonstrates an end-to-end DevOps workflow:
 ---
 
 ## Project Architecture
-
+```
 User
  ↓
 Kubernetes Service
@@ -57,6 +57,7 @@ Pods (Replicas)
 Docker Container
  ↓
 To-Do App
+```
 
 ##  📁 File structure
 ```
