@@ -237,7 +237,9 @@ kubectl describe pod <pod-name>
 ---
 ## Application UI
 ## video demo 
+## 🎥 Demo Video
 
+<video src="src/demo.mp4" controls></video>
 ## Webpage-
 <p align="center">
   <img src="src/TODOlist webpage.png" width="700"/>
