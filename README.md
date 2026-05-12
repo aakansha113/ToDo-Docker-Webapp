@@ -36,10 +36,12 @@ This project demonstrates an end-to-end DevOps workflow:
 5. Service exposes app on browser
 
 ---
-Architecture Diagram:
+
+### Architecture Diagram:
 <p align="center">
   <img src="src/architecture_diagram.png" width="700"/>
 </p>
+
 ---
 
 ## Project Architecture
