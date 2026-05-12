@@ -239,7 +239,7 @@ kubectl describe pod <pod-name>
 
 ## 🎥 Demo Video
 
-👉 [Watch Full Project Demo](https://github.com/aakansha113/ToDo-Docker-Webapp/blob/main/src/demo.mp4)
+https://github.com/aakansha113/ToDo-Docker-Webapp/raw/main/src/demo.mp4
 
 ## Webpage-
 <p align="center">
