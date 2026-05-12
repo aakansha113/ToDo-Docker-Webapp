@@ -24,7 +24,41 @@ This project demonstrates an end-to-end DevOps workflow:
 - GitHub Actions
 - Kubernetes
 - Minikube
+---
+## 🚀 Features Implemented
 
+### 🐳 Docker
+- Containerized the application using Dockerfile
+- Built and tested image locally
+
+### 🔄 CI/CD Pipeline
+- Automated build and push to Docker Hub using GitHub Actions
+- Triggered pipeline on every code push
+
+### ☸️ Kubernetes
+- Deployment of application using Kubernetes Deployment
+- Service exposed for external access
+- ConfigMap for configuration management
+- Secret for sensitive data handling
+- Resource limits for production readiness
+- Rolling updates for zero downtime deployment
+
+### ☁️ AWS EC2 Deployment
+- Deployed Kubernetes cluster on AWS EC2 instance
+- Accessed application via public IP
+
+---
+---
+
+## 🔧 How it works
+
+1. Code is pushed to GitHub
+2. GitHub Actions builds Docker image
+3. Image pushed to Docker Hub
+4. Kubernetes pulls image and deploys app
+5. Service exposes app on browser
+
+---
 ---
 ## Project Architecture
 
@@ -202,6 +236,8 @@ kubectl describe pod <pod-name>
 ```
 ---
 ## Application UI
+## video demo 
+
 ## Webpage-
 <p align="center">
   <img src="src/TODOlist webpage.png" width="700"/>
