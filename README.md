@@ -236,10 +236,11 @@ kubectl describe pod <pod-name>
 ```
 ---
 ## Application UI
-## video demo 
+
 ## 🎥 Demo Video
 
-<video src="src/demo.mp4" controls></video>
+👉 [Watch Full Project Demo](https://github.com/aakansha113/ToDo-Docker-Webapp/blob/main/src/demo.mp4)
+
 ## Webpage-
 <p align="center">
   <img src="src/TODOlist webpage.png" width="700"/>
