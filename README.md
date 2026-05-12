@@ -57,8 +57,13 @@ This project demonstrates an end-to-end DevOps workflow:
 4. Kubernetes pulls image and deploys app
 5. Service exposes app on browser
 
-
 ---
+Architecture Diagram:
+<p align="center">
+  <img src="src/archicture_diagram.png" width="700"/>
+</p>
+---
+
 ## Project Architecture
 
 User
