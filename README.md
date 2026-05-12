@@ -38,7 +38,7 @@ This project demonstrates an end-to-end DevOps workflow:
 ---
 Architecture Diagram:
 <p align="center">
-  <img src="src/archicture_diagram.png" width="700"/>
+  <img src="src/architecture_diagram.png" width="700"/>
 </p>
 ---
 
